@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Flutter Demo',
+        title: 'Pruebas de Flutter',
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
@@ -54,7 +54,7 @@ class _ContadorState extends State<Contador> {
           start: 142,
           child:
               // Demo
-               Text("Demo",
+              Text("Demo",
                   style: TextStyle(
                       color: Color(0xffffffff),
                       fontWeight: FontWeight.w400,
