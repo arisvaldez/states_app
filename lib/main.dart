@@ -36,7 +36,7 @@ class _ContadorState extends State<Contador> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Titulo")),
+      appBar: AppBar(title: const Text("Titulo Personalizado")),
       body: // Android Large - 1
           Stack(children: [
         // Rectangle 1
